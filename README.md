@@ -2,7 +2,6 @@
 
 Requisitos:
 - Instalar a biblioteca uibooster do processing
-https://github.com/milchreis/uibooster-for-processing/blob/master/img/install.jpg?raw=true
 
 Instruções de uso:
 - "i" para mudar de imagem
