@@ -1,7 +1,7 @@
 # Deferred-Shading
 
 Requisitos:
--Instalar a biblioteca uibooster do processing
+- Instalar a biblioteca uibooster do processing
 
 Instruções de uso:
 - "i" para mudar de imagem
