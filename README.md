@@ -2,6 +2,7 @@
 
 Requisitos:
 - Instalar a biblioteca uibooster do processing
+<img src="/content/uibooster.jpg" alt="image"/>
 
 Instruções de uso:
 - "i" para mudar de imagem
