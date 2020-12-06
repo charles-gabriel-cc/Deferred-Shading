@@ -21,6 +21,7 @@ PVector normalMap[][] = new PVector[w][h];
 PVector specMap[][] = new PVector[w][h];
 PVector targetMap[][] = new PVector[w][h];
 PVector Im = new PVector(255, 255, 255);
+PVector Ka = new PVector(0,0,0);
 
 void setup() {
   size(500, 800);
@@ -125,7 +126,7 @@ void draw() {
         temp.y+= floor(Im.y * vq * Ks.y/255);
         temp.z+= floor(Im.z * vq * Ks.z/255);
       }
-      pixels[index] = color(temp.x, temp.y, temp.z);
+      pixels[index] = color(Ka.x + temp.x,Ka.y + temp.y,Ka.z + temp.z);
     }
   }
   updatePixels();
