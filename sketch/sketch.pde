@@ -103,7 +103,8 @@ void draw() {
       PVector R = PVector.sub(L, PVector.mult(N, val)).normalize();
       float q = 256;
       int index = y * width + x;
-
+      
+      //Vetor onde poderá ser armazenado as componentes difusa e especular
       PVector temp = new PVector(red(pixels[index]), green(pixels[index]), blue(pixels[index]));
       
       //Calculando a componente difusa
