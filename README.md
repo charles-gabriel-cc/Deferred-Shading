@@ -5,6 +5,7 @@ Requisitos:
 <img src="/content/uibooster.jpg" alt="image"/>
 
 Instruções de uso:
+- Executar o arquivo sketch.pde com processing 3 instalado
 - "i" para mudar de imagem
 - "s" alternar para modo especular
 - "d" alternar para modo difuso
