@@ -1,7 +1,7 @@
 # Deferred-Shading
 
 Requisitos:
-- Instalar a biblioteca uibooster do processing na versão 1.2.0
+- Importar a biblioteca UiBbooster do processing na versão 1.2.0
 <img src="/content/uibooster.jpg" alt="image"/>
 
 Instruções de uso:
