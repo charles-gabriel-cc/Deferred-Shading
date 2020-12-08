@@ -25,6 +25,7 @@ PVector Ka = new PVector(0,0,0);
 
 void setup() {
   size(500, 800);
+  //Carregando as imagens
   d = new PImage[imageCount];
   n = new PImage[imageCount];
   s = new PImage[imageCount];
@@ -59,26 +60,26 @@ void images() {
 }
 void keyPressed() {
   // "i" para mudar de imagem
-  if (key == 105) {
+  if (key == 105 || key == 73) {
     imgIndex = imgIndex + 1;
     if (imgIndex >= imageCount) {
       imgIndex = 0;
     }
     initializeImage();
     // "s" alternar para modo especular
-  } else if (key == 115) {
+  } else if (key == 115 || key == 83) {
     showSpec = true;
     showDif = false;
     // "d" alternar para difuso
-  } else if (key == 100) {
+  } else if (key == 100 || key == 68) {
     showSpec = false;
     showDif = true;
     // "a" alternar para ambos os modos
-  } else if(key == 97){
+  } else if(key == 97 || key == 65){
     showSpec = true;
     showDif = true;
     // "c" para abrir o color picker
-  } else if (key == 99) {
+  } else if (key == 99 || key == 67){
     color selectedColor = new UiBooster().showColorPicker("Choose your favorite color", "Color picking").getRGB();
     Im = new PVector(red(selectedColor), green(selectedColor), blue(selectedColor));
   }
